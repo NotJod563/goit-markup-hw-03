@@ -216,8 +216,8 @@ img {
     width: 264px;
 }
 
-.team__wrapper {
-    padding: 32px 0 32px;
+.team-wrapper {
+    padding: 32px 0;
 }
 
 .team-member-name {
@@ -266,7 +266,7 @@ img {
     font-weight: 500;
     font-size: 20px;
     margin-top: 15px;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-category {
