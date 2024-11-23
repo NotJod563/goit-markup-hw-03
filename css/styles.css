@@ -263,11 +263,8 @@ img {
 
 .portfolio-wrapper {
     border: 1px solid var(--color-cornflower);
-    /* Added border */
     padding: 32px 16px;
-    /* Added padding */
     border-top: none;
-    /* Removed border from the top */
 }
 
 .portfolio-item-title {
@@ -276,7 +273,6 @@ img {
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 8px;
-    /* Added margin to match the test requirement */
 }
 
 .portfolio-item-category {
@@ -297,6 +293,7 @@ img {
     font-size: 18px;
     color: var(--color-iris);
     text-transform: uppercase;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
