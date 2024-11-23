@@ -216,11 +216,16 @@ img {
     width: 264px;
 }
 
+.team__wrapper {
+    padding: 32px 0;
+}
+
 .team-member-name {
     color: var(--color-navy-blue);
     font-weight: 500;
     font-size: 20px;
     margin-top: 15px;
+    margin-bottom: 8px;
 }
 
 .team-member-role {
@@ -244,7 +249,7 @@ img {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 48px 24px;
     justify-content: center;
 }
 
@@ -261,6 +266,7 @@ img {
     font-weight: 500;
     font-size: 20px;
     margin-top: 15px;
+    margin-bottom: 72px;
 }
 
 .portfolio-item-category {
