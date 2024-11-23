@@ -34,8 +34,8 @@ img {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
+    /* Оновлено padding */
 }
 
 /* Header */
@@ -45,11 +45,8 @@ img {
 
 .page-header .container {
     display: flex;
-    /* Вирівнювання елементів в одну лінію */
     justify-content: space-between;
-    /* Простір між логотипом, меню та контактами */
     align-items: center;
-    /* Вертикальне вирівнювання */
     padding: 24px 0;
 }
 
@@ -76,11 +73,8 @@ img {
 }
 
 .menu-list li:not(:last-child) {
-    margin-right: 40px;
-}
-
-.menu-list li:last-child {
     margin-right: 0;
+    /* Використовується gap, тому додатковий відступ не потрібен */
 }
 
 .menu-list-link {
@@ -96,16 +90,11 @@ img {
 .contact-list-items {
     display: flex;
     gap: 40px;
-    /* Відстань між контактами */
 }
 
 .contact-list-items li:not(:last-child) {
-    margin-right: 40px;
-    /* Альтернатива gap */
-}
-
-.contact-list-items li:last-child {
     margin-right: 0;
+    /* Використовується gap, тому додатковий відступ не потрібен */
 }
 
 .contact-list-link {
@@ -144,6 +133,7 @@ img {
 .hero-button:hover {
     background-color: #404bbf;
 }
+
 .hero-button:focus {
     background-color: #404bbf;
 }
