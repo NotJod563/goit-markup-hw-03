@@ -34,8 +34,6 @@ img {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
-    /* Оновлено padding */
 }
 
 /* Header */
@@ -47,7 +45,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
+    padding-left: 15pxl;
+    padding-right: 15px;
 }
 
 /* Логотип */
